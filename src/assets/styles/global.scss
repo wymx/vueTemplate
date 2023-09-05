@@ -1,0 +1,102 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.cursor{
+  cursor: pointer;
+}
+.cursor1{
+  cursor: default;
+}
+.w1190{
+  width: 1190px;
+  margin: auto;
+}
+.w1014{
+  width: 1014px;
+  margin: auto;
+  padding: 24px;
+}
+.w990{
+  width: 990px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+}
+.flexAlignCenter {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+}
+.flexCenter {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexBetween {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexAround {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flexColumn {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColumnStart {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.headerBg {
+  background: url("@/assets/images/headerBg.png") no-repeat center top;
+}
+// 新增toast样式
+.toast-message .el-message{
+  height: 36px;
+  background: #000000;
+  border-radius: 2px;
+  padding: 0 20px;
+  border: 0;
+  --el-message-text-color: #fff;
+  color: #ffffff;
+  i{
+    display: none;
+  }
+}
+.el-message{
+  .el-icon {
+    height: 1.5em;
+    width: 1.5em;
+    svg{
+      height: 1.5em;
+      width: 1.5em;
+    }
+  }
+}

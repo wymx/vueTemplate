@@ -1,0 +1,19 @@
+@mixin box-shadow($bulr: 20px, $color: #1989fa7a) {
+    -webkit-box-shadow: 0 0 $bulr $color;
+    -moz-box-shadow: 0 0 $bulr $color;
+    box-shadow: 0 0 $bulr $color;
+}
+//文本n行溢出隐藏
+@mixin ellipsisBasic($clamp:2) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $clamp;
+  }
+// 设置基础宽度，居中对齐
+@mixin layoutCenter{
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
